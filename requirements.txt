@@ -1,0 +1,11 @@
+geopandas>=0.14
+pandas>=2.0
+numpy>=1.24
+shapely>=2.0
+folium>=0.15
+streamlit>=1.30
+streamlit-folium>=0.18
+matplotlib>=3.7
+scipy>=1.11
+branca>=0.7
+pyproj>=3.6
