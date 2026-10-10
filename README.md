@@ -1,5 +1,7 @@
 # ÉireSite
 
+[Live Demo](https://eiresite.streamlit.app/)
+
 **Renewable Energy Site Screening for Ireland**
 
 A two-phase multi-criteria geospatial analysis tool that identifies optimal locations for wind and solar energy projects across the Republic of Ireland.
