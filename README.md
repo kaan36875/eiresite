@@ -129,7 +129,7 @@ Each weight is increased by 50% (others re-normalised) to measure how the top-10
 
 ### Prerequisites
 
-- Python 3.9+
+- Python 3.10+
 
 ### Installation
 
