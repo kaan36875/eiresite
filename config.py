@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -40,8 +41,7 @@ MAX_GRID_DISTANCE_KM = 50
 MAX_ROAD_DISTANCE_KM = 20
 MAX_SETTLEMENT_DISTANCE_KM = 30
 
-import os as _os
-CARTO_API_KEY = _os.environ.get("CARTO_API_KEY", "")
+CARTO_API_KEY = os.environ.get("CARTO_API_KEY", "")
 CARTO_TILE_URL = (
     f"https://basemaps.cartocdn.com/rastertiles/voyager/{{z}}/{{x}}/{{y}}.png?key={CARTO_API_KEY}"
     if CARTO_API_KEY
